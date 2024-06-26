@@ -5,7 +5,6 @@ const mongoose = require('mongoose');
 const ObjectId = mongoose.Types.ObjectId;
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const cookieParser = require("cookie-parser");
 require('dotenv').config();
 const jwtSecret = process.env.JWT_SECRET;
 
